@@ -1,0 +1,1043 @@
+.adpage{
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	min-width: 1024px;
+	
+}
+#adminpage{
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+#wrapper{
+	min-height: 100%;
+	position: relative;
+	
+}
+*{
+margin: 0px;
+}
+#timetable{
+	background-color: #FAFAD2;
+	
+}
+a:HOVER{
+	text-decoration: underline;
+	color: purple;
+
+}
+#searchContainer{
+padding-bottom: 10px;
+padding-top: 10px;
+background-color: grey;
+vertical-align: middle;
+	
+}
+#accountNav{
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+}
+#accountDetails{
+	float: right;
+	width: 80%;
+	margin-top: 20px;
+}
+
+#roomSrchbox{
+	width:80%;
+	height: 35px;
+	border-radius: 5px;
+	font-size: 16px;
+	padding-left: 4px;
+	margin-left: 20px;
+	
+}
+
+
+#topWraper {
+	background: purple;
+	opacity: 0.9;
+	margin-left: auto;
+	margin-right: auto;
+}
+#userContainer{
+	text-align: right;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+}
+/* #topContainer {
+	padding-top: 2px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 14px;
+	padding-left: 4px;
+	color: white;
+} */
+
+#login {
+	font-weight: bold;
+	display: inline;
+}
+
+#userIndicator {
+	font-size: 14px;
+	display: inline-block;
+	color: white;
+}
+#lblUserName{
+	padding-right: 2px;
+	padding-left: 2px;
+}
+#userPageBackground{
+	
+	background-image: url("../images/page_background_Lecture.jpg");
+}
+
+#userIcon {
+	height: 16px;
+	width: 16px;
+	vertical-align: bottom;
+}
+#hcon{
+	padding-top:3px;
+	text-align: center;
+}
+.btnRegister {
+	margin-top: 3px;
+	font-weight: bold;
+	font-size: 12px;
+	height: 16px;
+	width: 40px;
+	line-height: 120%;
+	padding-left: 6px;
+	border-radius: 5px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.btnAdmin{
+	font-size: 10px;
+	
+	border-radius: 5px;
+	padding: 0.5px;
+	width: 30px;
+	vertical-align:middle;
+	text-align: center;
+}
+
+
+
+#navMenu {
+	height: 35px;
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#navMenu a {
+	text-decoration: none;
+	display: block;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-bottom: 6px;
+	padding-top:10px;
+	color: white;
+}
+/* #searchBox{
+	background-color: teal;
+padding-left: 40px;
+padding-bottom: 20px;
+padding-top: 10px;
+	
+	
+} */
+#navMenu ul {
+	font-family: Gadget;
+	list-style-type: none;
+	text-shadow: 1px 1px 1px 1px #595959;
+
+}
+.btnRegister{
+background-color: white;	
+color: black;	
+border: 1px solid gray;	
+}
+
+#navMenu li {
+	float: left;
+}
+
+#navMenu ul ul {
+	position: absolute;
+	visibility: hidden;
+	background-color: blue;
+}
+
+#navMenu ul li:HOVER ul {
+	visibility: visible;
+}
+
+
+#navMenu li:HOVER>a {
+	text-decoration: underline;
+}
+
+
+#contents {
+	padding-top: 10px;
+	border-right: thin solid yellow;
+	border-left: thin solid yellow;
+	background-color: white;
+	clear: both;
+	min-height: 750px;
+}
+
+#footer {
+	background-color: white;
+	border-top-style: groove;
+	border-top-width: 2px;
+	width: 100%;
+	height: 20px;
+	padding-top: 20px;
+	padding-bottom:10px;
+background-color: white;
+clear:both;
+bottom: 0px;
+}
+
+.bottom{
+	text-align: right;
+
+}
+#loginPage{
+	padding-top:90px;
+	width: 450px;
+   	margin-right: auto;
+   	margin-left: auto;
+    border: 2px solid #000;
+    padding: 0px 10px 10px 10px;
+    border-radius: 5px;
+    background-color: blue;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#acf{
+	
+	background-color: white;
+	border-top-style: groove;
+	border-top-width: 2px;
+	width: 100%;
+	height: 20px;
+	padding-top: 20px;
+	padding-bottom:10px;
+	position: fixed;
+background-color: white;
+clear:both;
+bottom: 0px;
+	
+}
+#loginHeader{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 140%;
+	font-weight: bold;
+	border-bottom: thin solid black;
+}
+#loginTable{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: left;
+	margin: auto;
+}
+#loginTable td{
+vertical-align: text-top;
+padding-right: 5px;
+	
+}
+#loginTable input{
+	
+	height: 20px;
+	margin-bottom: 20px;
+}
+
+#loginTable button {
+    margin-left: 64%;
+   padding-top: 2px;
+   padding-bottom: 2px;
+}
+#availiablitypage{
+	padding-top: 40px;
+	border: thin solid black;
+	width: 760px;
+	margin: auto;
+	padding-bottom: 35px;
+}
+.availableFrm{
+	display:block;
+	background-color: blue;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	margin: auto;
+}
+.afrm{
+	width: 100px;
+	height: 25px;
+	background-color: red;
+	
+}
+.room{
+background-color: black;
+width: 200px;
+height: 25px;
+	
+}
+.lfrm{
+	width:100px;
+	display: inline-block;
+	
+}
+.lblcentre{
+text-align: right;
+width:100px;	
+display: inline-block;
+	
+}
+.hrsfrm{
+	margin:0px;
+	padding:0px;
+	width: 60px;
+	height: 25px;
+}
+.qrcodeImage{
+	
+	padding-bottom: 5px;
+}
+.roomlbl,.roomData{
+display:inline-block;
+padding-bottom:5px;
+vertical-align: text-top;
+padding-bottom: 15px;
+}
+.formlbl,.formData{
+
+display:inline-block;
+
+
+}
+#bookRoom input, #bookRoom Select{
+height: 35px;
+border-radius: 5px;
+	
+
+}
+
+#bookRoom{
+	font-size: 20px;
+padding-top: 40px;
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+border-style: solid;
+border-width: 1px;
+padding-left:20px;
+background-image: url("../images/formback.jpg");
+background-size: 100%;
+
+}
+
+#userConfrm{
+	width: 350px;
+	margin-right: auto;
+	margin-left: 60px;
+	  border-collapse: collapse;
+	  margin-bottom: 15px;
+}
+#userConfrm td{
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-bottom-style: solid;
+	border-bottom-width: 0.5px;
+	border-bottom-color: gray;
+	border-collapse: collapse;
+	vertical-align: middle;
+	
+	
+}
+#confirmationForm{
+margin-right: auto;
+margin-left: auto;	
+	
+}
+.h2{
+padding-bottom: 10px;
+padding-left: 8px;	
+	
+}
+.p12{
+	font-size: 14px;
+	font-style: italic;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	padding-left: 8px;
+}
+.hrconFrm{
+	
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.btnConfrm{
+	margin-left:60px;
+	width: 100px;
+	height: 30px;
+	margin-right: 10px;
+}
+.btnCancel{
+	margin-left: 5px;
+	width: 100px;
+	height: 30px;
+	margin-bottom: 10px;
+	
+}
+ #ConfirmReservation{
+ clear:both;
+ background-color: white;
+ 	font-size: 20px;
+padding-top: 40px;
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+border-style: solid;
+border-width: 1px;
+ 
+ }
+
+#roomTimeTable{
+padding-left: 40px;
+}
+
+
+#time{
+width: 100px;
+}
+.formlbl{
+width:110px;
+color:white;
+}
+.formData{
+width:400px;
+}
+.frmpad{
+ padding-bottom: 10px;
+}
+
+
+.roomlbl{
+font-weight: 900;
+width:30%;
+
+
+}
+
+#btnRoomSearch{
+margin-right: 10px;
+height: 35px;	
+	
+}
+#btnBookRoom{
+height: 35px;
+margin-right: 20px;
+
+}
+
+.roomData{
+width:70%;
+}
+#findRooms{
+ width:80%;
+ height:80%;
+ padding-left: 40px;
+ font-size: 18px;
+ border-style: solid;
+border-width: 1px;
+margin-left: auto;
+margin-right: auto;
+border-top: none;
+border-bottom: none;
+ 
+}
+#noResults{
+	  border: 1px solid black;
+border-radius: 5px;
+	padding: 20px;
+	font-size: 22px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	
+}
+
+
+#image{
+margin-top:0px;
+float:left;
+margin-bottom:auto;
+vertical-align: text-top;
+padding-right: 20px;
+padding-left: 20px;
+
+}
+#rooms{
+vertical-align: text-top;
+width:56%;
+float: right;
+padding-right: 20px;
+}
+#roomNamelbl{
+
+
+}
+#roomNamelbl,#roomNametxt,#roomTypelbl,#roomTypetxt,#buildinglbl,#Buildingtxt{
+
+width:250px;
+
+}
+#roomNametxt{
+background-color:gray;
+
+
+}
+
+#adminNav, #adminView{
+display: inline-block;
+margin-top: 40px;
+vertical-align: text-top;
+height: 100%;
+}
+
+/* #accountDetails{
+border-radius: 5px;
+margin-left: 20px;
+background-color: #f5f5f5;
+width:70%;
+height: 380px;
+
+} */
+
+#adminNav{
+margin-left: 20px;
+/* width:13%;
+padding-top:40px;
+margin-left: 20px;
+border-style: solid;
+border-width: 1px;
+background-color: purple;
+border-radius: 5px; */
+}
+#adminView{
+border-radius: 5px;
+margin-left: 15px;
+width:80%;
+
+}
+
+#adminView div{
+	padding-bottom: 10px;
+}
+#tableView{
+	height: 100%;
+	margin-bottom: auto;
+}
+
+
+#navList li{
+	
+	list-style-type: none;
+	margin-bottom:3px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 1px #888888;
+
+}
+#navList{
+width: 125px;
+padding: 0px;
+opacity: 0.9;
+
+
+}
+#navList a{
+	text-decoration: none;
+	font-size:14px;
+	color: white;
+	display: block;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-radius:5px;
+	padding-left: 10px;
+	
+	
+
+	
+	
+
+
+}
+#navList li:HOVER>a {
+	background-color: threeddarkshadow;
+	text-decoration: und
+}
+.nl1{
+background-color: #CF4858;
+}
+.nl2{
+background-color: #16A79D;
+}
+.nl3{
+background-color: #80628B;
+}
+.nl4{
+background-color: #F4AC42;
+}
+.nl5{
+background-color: #7A9A95;
+}
+.nl6{
+background-color: #3F2860;
+}
+.nl7{
+background-color: #EF6D3B;
+}
+.nl8{
+background-color: #004687;
+}
+.nl9{
+background-color: #B81D18;
+}
+
+.lErr{
+	color: red;
+}
+.roomHeading{
+	padding-top:20px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+	
+}
+.divide{
+	
+margin: 10px;	
+	
+}
+
+.errMsg{
+	color: red !important;
+	padding-bottom: 5px;
+}
+.form2{
+	
+	margin-bottom: 30px;
+}
+#qrgen{
+	height: 55%;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 40px;
+	overflow: scroll;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #ffeaff;
+	
+}
+figcaption { 
+	display: block;
+	text-align: center;
+}
+
+figure {
+    float: left;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    }
+    
+    
+ .ui-datepicker { 
+ font-size:8pt !important;
+ }
+ #view, #view th, #view td{
+ vertical-align: text-top;
+   border: 1px solid black;
+   empty-cells: show;
+ border-collapse: collapse;
+ 
+ 
+ }
+  #dayview, #dayview th, #dayview td{
+ vertical-align: text-top;
+   border: 2px solid black;
+   empty-cells: show;
+ border-collapse: collapse;
+ }
+ @media screen and (max-width: 640px){
+ #dayview{
+	overflow-y: auto;
+	display: block;
+	overflow-x: auto;
+}
+ }
+ .qrhr{
+ margin-top:5px;
+ margin-bottom:10px;
+ margin-right: 50px;
+ margin-left: 50px;
+ }
+
+ #view, #dayview{
+ margin-left: auto;
+ margin-right: auto;
+ height: 70%;
+ margin-top: 5px;
+ text-align: left;
+ }
+ #view th, #dayview th{
+width: 50px;
+padding-left: 8px;
+ }
+ #view td, #dayview td{
+opacity: 0.9;
+color:white;
+  padding:4px;
+  min-width: 120px;
+  max-width: 125px;
+  font-size: 80%;
+ }
+ 
+ .tmetitle{
+ text-align:center;
+ margin-top: 20px;
+ margin-left: auto;
+ margin-right: auto;
+ font-size: 120%;
+ }
+ .btnprevious{
+ margin-top:10px;
+ margin-left: 3px;
+ 
+ }
+ #btnWrapper{
+text-align: center;
+ }
+ .timetable{
+ background-color: #FFFFCC;
+ }
+ .ui-dialog{
+ font-size: 12px !important;
+ /* width: 300px !important; */
+
+ }
+ .txtQr{
+ margin-bottom: 10px;
+ height: 22px;
+ 
+ }
+ #bookingEdit label{
+ 
+ display: block; 
+ }
+ 
+ #bookingEdit{
+ width: 220px;
+ margin-left: auto;
+ margin-right: auto;
+ 
+ }
+ #bookingEdit td{
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+ 
+ }
+ #bookingEdit input {
+	width: 220px;
+	height: 22px;
+}
+#bookingEdit Select{
+	
+	width: 220px;
+	height: 22px;
+	
+	
+}
+#edbooking{
+	width: 900px;
+	
+}
+#bookingEdit span,#errorMsg{
+	
+	color: red;
+	
+}
+.divform{
+	display: inline;
+	
+}
+.lblrm{
+	
+	
+display: inline !important;
+padding-left: 2px;
+	
+}
+.chkr{
+width: 20px !important;
+}
+#roomImage{
+	
+	margin-top: 5px;
+	margin-bottom: 5px;
+	
+	
+}
+#imageView{
+	width: 200px;
+	height: 160px;
+	border-style: solid;
+    border-width: 1px;
+	
+	
+}
+#ifrmageImage{
+	
+	width: 200px;
+	height: 200px;
+overflow: hidden;
+	
+}
+#imageHolder{
+	
+	width: 200px;
+	height: 150px;
+	border-style: solid;
+    border-width: 1px;
+	
+}
+#preview{
+	width: 200px;
+	height: 150px;
+	
+	
+}
+#adminTable{
+ border-collapse: collapse;
+  border: 1px solid #7A9A95;
+  min-width:70%;
+ font-size:12px;
+ text-align: left;
+ margin-bottom: 10px;
+}
+#adminTable td{
+padding-bottom: 7px;
+padding-top: 7px;
+padding-left: 10px;		
+	
+}
+
+
+#adminTable tr,#adminTable th{
+ border: 1px solid #7A9A95;
+ padding:3px;
+ }
+#adminTable th{
+font-size:14px;
+background-color: #7A9A95;
+color: white;
+padding: 5px;
+}
+#adminTable .alt{
+background-color: #F1F4F4;
+}
+.ui-widget-header { 
+border: none !important;
+background: #262626 !important;
+}
+#adminSearchC{
+ border: 1px solid #7A9A95;
+box-shadow: 2px 2px 1px #888888;
+margin-bottom: 5px;
+padding-left: 5px;
+
+}
+.roomdetails{
+	font-style: italic;
+	font-weight: normal;
+	
+	
+}
+
+#tutorWraper{
+width: 500px;
+margin-left: auto;
+margin-right: auto;	
+	
+}
+#tutorWraper img{
+width: 160px;
+height: 170px;
+margin-left: auto;
+margin-right: auto;
+border-style: solid;
+    border-width: 1px;
+	
+}
+
+#tutorDetails{
+	height:300px;
+	 border-style: solid;
+    border-width: 2px;
+    padding: 30px;
+    padding-top:30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+      	
+}
+
+#tutorWraper .tuturtbl{
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 10px;
+	
+}
+#tutorHeading{
+	padding-bottom: 10px;
+	font-size: 25px;
+
+}
+#tutorWraper span{
+	font-weight: bold;
+	
+}
+#tutorWraper .tuturtbl2{
+	width: 15px;
+	
+}
+.dioup{
+	font-size: 14px;
+	
+	
+}
+.delDiog{
+font-size: 14px;
+	
+}
+.viewtme{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+ 	
+}
+.diologueBtm{
+	position: absolute;
+    bottom: 0px;
+     padding-bottom: 10px;
+   
+	
+}
+#txtRoomId{
+	
+	margin-top: 10px;
+	margin-bottom: 15px;
+	
+}
+#dialogWrapper{
+	
+	 padding-top: 10px;
+	
+	
+}
+
+.dioMsg{
+	padding-top: 20px;
+	font-size: 14px;
+	
+}
+.qrgendiv{
+	
+	padding-top: 10px;
+}
+#roomIme{
+	width: 320px;
+	height:  220px;
+	
+}
+#userContents,#userContents2{
+	clear: both;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid;
+	border-width: 2px;
+background-color: #FAFAD2;
+	border-top: none;
+	border-bottom: none;
+	
+}
+#userContents{
+	
+	height: 80%;
+}
+#userContents2{
+	
+	height: 90%;
+}
+#fac{
+list-style-image: url('../images/tick.png');
+padding-left: 0px;
+margin-left: 0px;	
+}
+.facli{
+	list-style-image: url('../images/tick.png');
+
+}
+#searchBox{
+	margin-top:30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-style: solid;
+	border-width: 1px;
+	padding-left: 20px;
+	margin-left: 50px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	
+}
+#officeHours{
+width: 90%;	
+	
+}
+
+.btnDel{
+	background-color:red;
+	height: 80px;
+	padding-top: 20px;
+}
+#weektimetable{
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.un1{
+	
+	color: red;
+}
+#nava{
+	font-weight: bolder;
+}

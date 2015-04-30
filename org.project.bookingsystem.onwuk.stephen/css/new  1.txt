@@ -1,0 +1,3 @@
+	<div id="roomNamelbl">Room Name</div><div id="roomNametxt">dsfgfgfgffgfggfgdsdsd</div>
+	<div id="roomTypelbl">Room Type</div><div id ="roomTypetxt">ffffffff</div>
+	<div id="buildinglbl">Bulding</div><div id ="Buildingtxt">ffffffff</div>
